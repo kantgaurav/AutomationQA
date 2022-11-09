@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_ImportRegion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e983a33-8e8d-4e59-8d69-1419923fee26</testCaseGuid>
+   <variable>
+      <defaultValue>'RegionImportTemplate.xlsx'</defaultValue>
+      <description></description>
+      <id>238b3e07-7978-4e0e-9851-21d24da64d01</id>
+      <masked>false</masked>
+      <name>regionFileName</name>
+   </variable>
+</TestCaseEntity>

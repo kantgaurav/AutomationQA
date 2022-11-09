@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_ImportProvider</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0a7219a-5897-450e-a680-247a5ff80b66</testCaseGuid>
+   <variable>
+      <defaultValue>'ProviderImportTemplate.xlsx'</defaultValue>
+      <description></description>
+      <id>e33bd9a6-6e4c-4d48-ba20-f5301a350b5d</id>
+      <masked>false</masked>
+      <name>providerFileName</name>
+   </variable>
+</TestCaseEntity>

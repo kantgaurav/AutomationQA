@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_VerifyUserCanCreateCARs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>878830a5-3412-4042-9fee-087df87fdd1c</testCaseGuid>
+   <variable>
+      <defaultValue>'SFO'</defaultValue>
+      <description></description>
+      <id>7659bd9e-4e46-42a2-9540-94657f10c70c</id>
+      <masked>false</masked>
+      <name>region</name>
+   </variable>
+   <variable>
+      <defaultValue>'SFO'</defaultValue>
+      <description></description>
+      <id>5b2786e1-e370-4dbf-b192-3de3756cb725</id>
+      <masked>false</masked>
+      <name>location</name>
+   </variable>
+   <variable>
+      <defaultValue>'SFOCC'</defaultValue>
+      <description></description>
+      <id>d8793392-7790-4c0b-9abf-c59c5c1110ce</id>
+      <masked>false</masked>
+      <name>costCenter</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dentist'</defaultValue>
+      <description></description>
+      <id>13e63563-1493-4a54-83b8-048cb88288be</id>
+      <masked>false</masked>
+      <name>specialty</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dentist'</defaultValue>
+      <description></description>
+      <id>b00cb350-d1a1-4860-9d37-0c71066fd2ce</id>
+      <masked>false</masked>
+      <name>position</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dentist Template'</defaultValue>
+      <description></description>
+      <id>6769340e-8156-4e54-86c1-e1d53d93f6a4</id>
+      <masked>false</masked>
+      <name>templateName</name>
+   </variable>
+   <variable>
+      <defaultValue>'santhoshkumar.vutukurii@gmail.com'</defaultValue>
+      <description></description>
+      <id>9b1ec0f1-9462-4368-ba74-648c8919d3a5</id>
+      <masked>false</masked>
+      <name>emailProvider</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_CreateCARApprovalWithATemplateAndLocationAndHierachical</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b7b339f-d0fd-4461-aa2c-55f96ffd94e8</testCaseGuid>
+</TestCaseEntity>

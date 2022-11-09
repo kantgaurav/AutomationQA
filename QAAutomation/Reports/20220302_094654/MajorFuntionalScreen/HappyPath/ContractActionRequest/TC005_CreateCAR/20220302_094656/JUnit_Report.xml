@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC005_CreateCAR" time="328.076" tests="1" failures="0" errors="1">
+   <testsuite name="TC005_CreateCAR" tests="1" failures="0" errors="1" time="328.076" skipped="0" timestamp="2022-03-02 09:47:08" hostname="SunitaShaw - 192.168.68.159" id="Test Suites/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\SunitaShaw\\Desktop\\CMS\\QAAutomation\\Reports\\20220302_094654\\MajorFuntionalScreen\\HappyPath\\ContractActionRequest\\TC005_CreateCAR\\20220302_094656"/>
+         <property name="logFiles" value="C:\\Users\\SunitaShaw\\Desktop\\CMS\\QAAutomation\\Reports\\20220302_094654\\MajorFuntionalScreen\\HappyPath\\ContractActionRequest\\TC005_CreateCAR\\20220302_094656\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SunitaShaw - 192.168.68.159"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.68.159"/>
+         <property name="sessionId" value="5233e216cd8b6f84195573ec823b2e31"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR" time="325.907" classname="Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR" status="ERROR">
+         <error type="ERROR" message="Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),'Create Approval')]&quot;}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HHCS-LAP-151', ip: '192.168.68.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5233e216cd8b6f84195573ec823b2e31
+*** Element info: {Using=xpath, value=//button[contains(text(),'Create Approval')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement$2.call(Unknown Source)
+	at core.BaseControl.highlightControl(BaseControl.groovy:74)
+	at core.BaseControl$highlightControl$1.callCurrent(Unknown Source)
+	at core.BaseControl.loadControl(BaseControl.groovy:56)
+	at core.BaseControl.click(BaseControl.groovy:156)
+	at core.BaseControl$click$4.call(Unknown Source)
+	at core.BaseSteps.clickToControl(BaseSteps.groovy:37)
+	at core.BaseSteps$clickToControl$2.call(Unknown Source)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:30)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:24)
+	at pages.CARApprovalSetupPageSteps$createApproval.call(Unknown Source)
+	at TC005_CreateCAR.run(TC005_CreateCAR:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646232416021.run(TempTestSuite1646232416021.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-02 09:47:10 - [TEST_CASE][ERROR] - Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR: Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Create Approval')]"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HHCS-LAP-151', ip: '192.168.68.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5233e216cd8b6f84195573ec823b2e31
+*** Element info: {Using=xpath, value=//button[contains(text(),'Create Approval')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement$2.call(Unknown Source)
+	at core.BaseControl.highlightControl(BaseControl.groovy:74)
+	at core.BaseControl$highlightControl$1.callCurrent(Unknown Source)
+	at core.BaseControl.loadControl(BaseControl.groovy:56)
+	at core.BaseControl.click(BaseControl.groovy:156)
+	at core.BaseControl$click$4.call(Unknown Source)
+	at core.BaseSteps.clickToControl(BaseSteps.groovy:37)
+	at core.BaseSteps$clickToControl$2.call(Unknown Source)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:30)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:24)
+	at pages.CARApprovalSetupPageSteps$createApproval.call(Unknown Source)
+	at TC005_CreateCAR.run(TC005_CreateCAR:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646232416021.run(TempTestSuite1646232416021.groovy:36)
+
+
+2022-03-02 09:47:10 - [TEST_STEP][PASSED] - Start listener action : initEnvironment: null
+
+2022-03-02 09:47:10 - [TEST_STEP][PASSED] - TC_NAME = testCaseContext.getTestCaseId(): null
+
+2022-03-02 09:47:10 - [TEST_STEP][PASSED] - "Step 1:": null
+
+2022-03-02 09:47:10 - [TEST_STEP][PASSED] - Browser.start(URL): null
+
+2022-03-02 09:47:16 - [TEST_STEP][PASSED] - "ER:": null
+
+2022-03-02 09:47:16 - [TEST_STEP][PASSED] - LoginPageSteps.verifyPageIsLoaded(): Expected result: PASSED. The page is loaded with >>>/login/<<<
+
+2022-03-02 09:47:16 - [MESSAGE][PASSED] - Expected result: PASSED. The page is loaded with >>>/login/<<<
+
+2022-03-02 09:47:16 - [TEST_STEP][PASSED] - "Step 2:": null
+
+2022-03-02 09:47:16 - [TEST_STEP][PASSED] - LoginPageSteps.login(APPROVER_MAIL_USER1, COMMON_PW, ORG_AUTOMATION, ROLE_SYSTEM_ADMIN): null
+
+2022-03-02 09:47:28 - [TEST_STEP][PASSED] - "ER:": null
+
+2022-03-02 09:47:28 - [TEST_STEP][PASSED] - HeaderPageSteps.verifyPageIsLoaded(): Expected result: PASSED. The control >>>User_Image<<< is displayed on page >>>HeaderPage<<<
+
+2022-03-02 09:47:30 - [MESSAGE][PASSED] - Expected result: PASSED. The control >>>User_Image<<< is displayed on page >>>HeaderPage<<<
+
+2022-03-02 09:47:30 - [TEST_STEP][PASSED] - "Step 3: Prepare Data": null
+
+2022-03-02 09:47:30 - [TEST_STEP][PASSED] - MenuPageSteps.selectOrganizationAdminMenu("Region"): null
+
+2022-03-02 09:47:31 - [TEST_STEP][PASSED] - createdRegionName = RegionPageSteps.createRegion(): null
+
+2022-03-02 09:47:39 - [TEST_STEP][PASSED] - getBaseSteps().verifyMainPopUpHasContent("Region saved"): Expected result: PASSED. The pop up content has content as >>>Saved
+Region saved<<<
+
+2022-03-02 09:47:39 - [MESSAGE][PASSED] - Expected result: PASSED. The pop up content has content as >>>Saved
+Region saved<<<
+
+2022-03-02 09:47:44 - [TEST_STEP][PASSED] - MenuPageSteps.selectOrganizationAdminMenu("Location"): null
+
+2022-03-02 09:47:47 - [TEST_STEP][PASSED] - createdLocationName = LocationPageSteps.createLocation(createdRegionName): null
+
+2022-03-02 09:47:58 - [TEST_STEP][PASSED] - getBaseSteps().verifyMainPopUpHasContent("Location saved"): Expected result: PASSED. The pop up content has content as >>>Saved
+Location saved<<<
+
+2022-03-02 09:47:59 - [MESSAGE][PASSED] - Expected result: PASSED. The pop up content has content as >>>Saved
+Location saved<<<
+
+2022-03-02 09:48:04 - [TEST_STEP][PASSED] - MenuPageSteps.selectOrganizationAdminMenu("Cost Center"): null
+
+2022-03-02 09:48:06 - [TEST_STEP][PASSED] - createdCCName = CostCenterPageSteps.createCostCenter(createdRegionName, createdLocationName): null
+
+2022-03-02 09:48:25 - [TEST_STEP][PASSED] - getBaseSteps().verifyMainPopUpHasContent("Cost Center saved"): Expected result: PASSED. The pop up content has content as >>>Saved
+Cost Center saved<<<
+
+2022-03-02 09:48:25 - [MESSAGE][PASSED] - Expected result: PASSED. The pop up content has content as >>>Saved
+Cost Center saved<<<
+
+2022-03-02 09:48:30 - [TEST_STEP][PASSED] - MenuPageSteps.selectOrganizationAdminMenu("Specialty"): null
+
+2022-03-02 09:48:33 - [TEST_STEP][PASSED] - createdSpecialtyName = SpecialtyPageSteps.createSpecialty(): null
+
+2022-03-02 09:48:45 - [TEST_STEP][PASSED] - getBaseSteps().verifyMainPopUpHasContent("Specialty saved"): Expected result: PASSED. The pop up content has content as >>>Saved
+Specialty saved<<<
+
+2022-03-02 09:48:45 - [MESSAGE][PASSED] - Expected result: PASSED. The pop up content has content as >>>Saved
+Specialty saved<<<
+
+2022-03-02 09:48:50 - [TEST_STEP][PASSED] - MenuPageSteps.selectOrganizationAdminMenu("Position"): null
+
+2022-03-02 09:48:53 - [TEST_STEP][PASSED] - createdPositionName = PositionPageSteps.createPosition(): null
+
+2022-03-02 09:49:01 - [TEST_STEP][PASSED] - getBaseSteps().verifyMainPopUpHasContent("Position saved"): Expected result: PASSED. The pop up content has content as >>>Saved
+Position saved<<<
+
+2022-03-02 09:49:01 - [MESSAGE][PASSED] - Expected result: PASSED. The pop up content has content as >>>Saved
+Position saved<<<
+
+2022-03-02 09:49:06 - [TEST_STEP][PASSED] - MenuPageSteps.selectConntractActionRequestMenu("CAR Templates"): null
+
+2022-03-02 09:49:09 - [TEST_STEP][PASSED] - createdTemplateName = CARTemplatesPageSteps.createCarTemplateForCAR(createdRegionName, createdLocationName, createdCCName, createdSpecialtyName, createdPositionName): null
+
+2022-03-02 09:51:19 - [TEST_STEP][PASSED] - getBaseSteps().verifyMainPopUpHasContent("Template information has been saved."): Expected result: PASSED. The pop up content has content as >>>Saved!
+Template information has been saved.<<<
+
+2022-03-02 09:51:20 - [MESSAGE][PASSED] - Expected result: PASSED. The pop up content has content as >>>Saved!
+Template information has been saved.<<<
+
+2022-03-02 09:51:25 - [TEST_STEP][PASSED] - MenuPageSteps.selectOrganizationAdminMenu("Providers"): null
+
+2022-03-02 09:51:28 - [TEST_STEP][PASSED] - createdProvidersName = ProvidersPageSteps.createProvider(): null
+
+2022-03-02 09:51:55 - [TEST_STEP][PASSED] - getBaseSteps().verifyMainPopUpHasContent("Provider Added Successfully"): Expected result: PASSED. The pop up content has content as >>>Provider Added
+Provider Added Successfully .<<<
+
+2022-03-02 09:51:55 - [MESSAGE][PASSED] - Expected result: PASSED. The pop up content has content as >>>Provider Added
+Provider Added Successfully .<<<
+
+2022-03-02 09:51:58 - [TEST_STEP][PASSED] - MenuPageSteps.selectConntractActionRequestMenu("CAR Approval Setup"): null
+
+2022-03-02 09:52:01 - [TEST_STEP][ERROR] - createdCTApprovalName = CARApprovalSetupPageSteps.createApproval("CAR Approval", "Cost Center", "Hierarchical", createdRegionName, createdLocationName, createdCCName, createdSpecialtyName, createdPositionName): Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Create Approval')]"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HHCS-LAP-151', ip: '192.168.68.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5233e216cd8b6f84195573ec823b2e31
+*** Element info: {Using=xpath, value=//button[contains(text(),'Create Approval')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement$2.call(Unknown Source)
+	at core.BaseControl.highlightControl(BaseControl.groovy:74)
+	at core.BaseControl$highlightControl$1.callCurrent(Unknown Source)
+	at core.BaseControl.loadControl(BaseControl.groovy:56)
+	at core.BaseControl.click(BaseControl.groovy:156)
+	at core.BaseControl$click$4.call(Unknown Source)
+	at core.BaseSteps.clickToControl(BaseSteps.groovy:37)
+	at core.BaseSteps$clickToControl$2.call(Unknown Source)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:30)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:24)
+	at pages.CARApprovalSetupPageSteps$createApproval.call(Unknown Source)
+	at TC005_CreateCAR.run(TC005_CreateCAR:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646232416021.run(TempTestSuite1646232416021.groovy:36)
+
+
+2022-03-02 09:52:33 - [MESSAGE][INFO] - No element By.xpath: //button[contains(text(),'Create Approval')] displayes: Expected condition failed: waiting for visibility of element located by By.xpath: //button[contains(text(),'Create Approval')] (tried for 30 second(s) with 500 milliseconds interval)
+
+2022-03-02 09:52:36 - [MESSAGE][ERROR] - Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Create Approval')]"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HHCS-LAP-151', ip: '192.168.68.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5233e216cd8b6f84195573ec823b2e31
+*** Element info: {Using=xpath, value=//button[contains(text(),'Create Approval')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement$2.call(Unknown Source)
+	at core.BaseControl.highlightControl(BaseControl.groovy:74)
+	at core.BaseControl$highlightControl$1.callCurrent(Unknown Source)
+	at core.BaseControl.loadControl(BaseControl.groovy:56)
+	at core.BaseControl.click(BaseControl.groovy:156)
+	at core.BaseControl$click$4.call(Unknown Source)
+	at core.BaseSteps.clickToControl(BaseSteps.groovy:37)
+	at core.BaseSteps$clickToControl$2.call(Unknown Source)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:30)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:24)
+	at pages.CARApprovalSetupPageSteps$createApproval.call(Unknown Source)
+	at TC005_CreateCAR.run(TC005_CreateCAR:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646232416021.run(TempTestSuite1646232416021.groovy:36)
+
+
+2022-03-02 09:52:36 - [TEST_STEP][PASSED] - Start listener action : cleanUpEnvironment: null]]></system-out>
+         <system-err><![CDATA[2022-03-02 09:47:10 - [TEST_CASE][ERROR] - Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR: Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Create Approval')]"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HHCS-LAP-151', ip: '192.168.68.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5233e216cd8b6f84195573ec823b2e31
+*** Element info: {Using=xpath, value=//button[contains(text(),'Create Approval')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement$2.call(Unknown Source)
+	at core.BaseControl.highlightControl(BaseControl.groovy:74)
+	at core.BaseControl$highlightControl$1.callCurrent(Unknown Source)
+	at core.BaseControl.loadControl(BaseControl.groovy:56)
+	at core.BaseControl.click(BaseControl.groovy:156)
+	at core.BaseControl$click$4.call(Unknown Source)
+	at core.BaseSteps.clickToControl(BaseSteps.groovy:37)
+	at core.BaseSteps$clickToControl$2.call(Unknown Source)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:30)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:24)
+	at pages.CARApprovalSetupPageSteps$createApproval.call(Unknown Source)
+	at TC005_CreateCAR.run(TC005_CreateCAR:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646232416021.run(TempTestSuite1646232416021.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-02 09:47:08 - [TEST_SUITE][ERROR] - TC005_CreateCAR: Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Create Approval')]"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HHCS-LAP-151', ip: '192.168.68.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5233e216cd8b6f84195573ec823b2e31
+*** Element info: {Using=xpath, value=//button[contains(text(),'Create Approval')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement$2.call(Unknown Source)
+	at core.BaseControl.highlightControl(BaseControl.groovy:74)
+	at core.BaseControl$highlightControl$1.callCurrent(Unknown Source)
+	at core.BaseControl.loadControl(BaseControl.groovy:56)
+	at core.BaseControl.click(BaseControl.groovy:156)
+	at core.BaseControl$click$4.call(Unknown Source)
+	at core.BaseSteps.clickToControl(BaseSteps.groovy:37)
+	at core.BaseSteps$clickToControl$2.call(Unknown Source)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:30)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:24)
+	at pages.CARApprovalSetupPageSteps$createApproval.call(Unknown Source)
+	at TC005_CreateCAR.run(TC005_CreateCAR:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646232416021.run(TempTestSuite1646232416021.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-03-02 09:47:08 - [TEST_SUITE][ERROR] - TC005_CreateCAR: Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Create Approval')]"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HHCS-LAP-151', ip: '192.168.68.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\SUNITA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5233e216cd8b6f84195573ec823b2e31
+*** Element info: {Using=xpath, value=//button[contains(text(),'Create Approval')]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.WebDriver$findElement$2.call(Unknown Source)
+	at core.BaseControl.highlightControl(BaseControl.groovy:74)
+	at core.BaseControl$highlightControl$1.callCurrent(Unknown Source)
+	at core.BaseControl.loadControl(BaseControl.groovy:56)
+	at core.BaseControl.click(BaseControl.groovy:156)
+	at core.BaseControl$click$4.call(Unknown Source)
+	at core.BaseSteps.clickToControl(BaseSteps.groovy:37)
+	at core.BaseSteps$clickToControl$2.call(Unknown Source)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:30)
+	at pages.CARApprovalSetupPageSteps.createApproval(CARApprovalSetupPageSteps.groovy:24)
+	at pages.CARApprovalSetupPageSteps$createApproval.call(Unknown Source)
+	at TC005_CreateCAR.run(TC005_CreateCAR:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646232416021.run(TempTestSuite1646232416021.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

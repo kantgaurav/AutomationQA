@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_ImportPosition</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b44ae67-c887-45db-945d-5744706e1a04</testCaseGuid>
+   <variable>
+      <defaultValue>'PositionImportTemplate.xlsx'</defaultValue>
+      <description></description>
+      <id>00761a78-f028-489e-9c80-0390f53b7307</id>
+      <masked>false</masked>
+      <name>positionFileName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_ImportLocation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc4be2f7-19c5-4b35-9862-6f9401dbf8f6</testCaseGuid>
+   <variable>
+      <defaultValue>'LocationImportTemplate.xlsx'</defaultValue>
+      <description></description>
+      <id>057d1ded-f7bd-4abe-a59c-e4bd5e54759b</id>
+      <masked>false</masked>
+      <name>locationFileName</name>
+   </variable>
+</TestCaseEntity>

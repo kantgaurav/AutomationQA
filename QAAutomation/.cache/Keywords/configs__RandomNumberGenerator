@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D10DF518F9DFB32F704A4381D8A0C25C",
+  "keywordClasses": [
+    {
+      "name": "configs.RandomNumberGenerator",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

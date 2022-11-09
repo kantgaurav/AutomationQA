@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC001_ExportTemplatesLibrary</description>
+   <name>TC001_ExportTemplatesLibrary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e29ad869-f220-47db-a3e0-6844600b2d62</testCaseGuid>
+</TestCaseEntity>

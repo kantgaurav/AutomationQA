@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "04AF582E828215EE00E6ACE7B9D4831C",
+  "keywordClasses": [
+    {
+      "name": "core.DesiredCapability",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

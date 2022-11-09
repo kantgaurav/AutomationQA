@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007_ImportAPayElements</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3ce422c-057e-4614-967e-4f9064203f57</testCaseGuid>
+   <variable>
+      <defaultValue>'PayElementImportTemplate.xlsx'</defaultValue>
+      <description></description>
+      <id>7743f1ef-2f2f-4dd3-8ae3-dafacc728937</id>
+      <masked>false</masked>
+      <name>payElementsFileName</name>
+   </variable>
+</TestCaseEntity>

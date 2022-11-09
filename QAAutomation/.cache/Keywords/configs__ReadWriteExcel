@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "7E2599027A88EA14939AA3C47779A88B",
+  "keywordClasses": [
+    {
+      "name": "configs.ReadWriteExcel",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

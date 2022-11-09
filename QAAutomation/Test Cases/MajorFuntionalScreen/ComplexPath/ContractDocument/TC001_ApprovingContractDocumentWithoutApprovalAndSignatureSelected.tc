@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_ApprovingContractDocumentWithoutApprovalAndSignatureSelected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c857cdbe-6865-473e-a534-423584844493</testCaseGuid>
+</TestCaseEntity>

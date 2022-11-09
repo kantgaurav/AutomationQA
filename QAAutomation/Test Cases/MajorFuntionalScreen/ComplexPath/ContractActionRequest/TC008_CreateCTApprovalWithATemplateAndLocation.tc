@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008_CreateCTApprovalWithATemplateAndLocation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc85bc21-ad27-49d2-a60d-83479b6fb54e</testCaseGuid>
+</TestCaseEntity>

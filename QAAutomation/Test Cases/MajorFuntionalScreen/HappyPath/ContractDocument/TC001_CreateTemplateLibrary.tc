@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_CreateTemplateLibrary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0deb42b-13cf-4f54-8bd2-d637befbb5dd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_ImportSpecialty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19d7c5c1-b299-4c18-bdb0-cec800b7b349</testCaseGuid>
+   <variable>
+      <defaultValue>'SpecialityImportTemplate.xlsx'</defaultValue>
+      <description></description>
+      <id>69e868c6-d41a-4940-bc38-9aafa3972896</id>
+      <masked>false</masked>
+      <name>specialtyFileName</name>
+   </variable>
+</TestCaseEntity>

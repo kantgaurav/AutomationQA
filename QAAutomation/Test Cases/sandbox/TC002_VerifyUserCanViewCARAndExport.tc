@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_VerifyUserCanViewCARAndExport</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa1fc0e2-6bbb-4473-bfbd-00566cdd68ce</testCaseGuid>
+   <variable>
+      <defaultValue>'FN54914'</defaultValue>
+      <description></description>
+      <id>1c11fa1f-3edd-42ec-9a85-baf5f0a652ed</id>
+      <masked>false</masked>
+      <name>provider</name>
+   </variable>
+   <variable>
+      <defaultValue>'Provider Name : FN54914 LN67967\nRegion : SFO\nLocation : SFO\nCost Center : SFOCC\nSpecialty : Dentist\nPosition : Dentist'</defaultValue>
+      <description></description>
+      <id>84d9e56a-120e-4db0-a82e-d28fe8290cff</id>
+      <masked>false</masked>
+      <name>CARDetails</name>
+   </variable>
+   <variable>
+      <defaultValue>'Contract Action Requests Report'</defaultValue>
+      <description></description>
+      <id>afe76820-b620-4689-aaa1-909bec041b2a</id>
+      <masked>false</masked>
+      <name>fileNameAfterExported</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "A61D57A9C111003F0A7D9CA1984CC343",
+  "keywordClasses": [
+    {
+      "name": "pages.CommonPageSteps",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

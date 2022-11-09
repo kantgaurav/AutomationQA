@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_ContractStatus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>109243b6-2ee6-4b0a-b589-fcad4e7beef5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>922eab4d-92b4-4d8d-90cb-423451761a17</id>
+      <masked>false</masked>
+      <name>prefix</name>
+   </variable>
+</TestCaseEntity>

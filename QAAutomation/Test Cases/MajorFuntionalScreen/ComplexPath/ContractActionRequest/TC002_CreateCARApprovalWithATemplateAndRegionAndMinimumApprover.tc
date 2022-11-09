@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_CreateCARApprovalWithATemplateAndRegionAndMinimumApprover</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>845d2aed-64de-40ba-a571-967cd735fd92</testCaseGuid>
+</TestCaseEntity>

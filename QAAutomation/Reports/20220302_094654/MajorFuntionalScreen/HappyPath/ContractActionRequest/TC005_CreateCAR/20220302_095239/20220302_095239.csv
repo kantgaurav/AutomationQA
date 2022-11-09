@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC005_CreateCAR,Chrome 98.0.4758.102,,,2022-03-02 09:52:51,2022-03-02 09:58:15,5m - 23.341s,ERROR
+,,,,,,,
+Test Cases/MajorFuntionalScreen/HappyPath/ContractActionRequest/TC005_CreateCAR,Chrome 98.0.4758.102,,,2022-03-02 09:52:53,2022-03-02 09:58:15,5m - 22.062s,ERROR
+Start listener action : initEnvironment,Chrome 98.0.4758.102,,,2022-03-02 09:52:53,2022-03-02 09:52:53,0.007s,PASSED
+"""Step 1:""",Chrome 98.0.4758.102,,,2022-03-02 09:52:53,2022-03-02 09:52:53,0.001s,PASSED
+Browser.start(URL),Chrome 98.0.4758.102,Enter the Application URL in browser.,,2022-03-02 09:52:53,2022-03-02 09:52:59,5.340s,PASSED
+"""ER:""",Chrome 98.0.4758.102,,,2022-03-02 09:52:59,2022-03-02 09:52:59,0.001s,PASSED
+LoginPageSteps.verifyPageIsLoaded(),Chrome 98.0.4758.102,System should display CMS Login page.,,2022-03-02 09:52:59,2022-03-02 09:52:59,0.189s,PASSED
+"""Step 2:""",Chrome 98.0.4758.102,,,2022-03-02 09:52:59,2022-03-02 09:52:59,0.001s,PASSED
+"LoginPageSteps.login(APPROVER_MAIL_USER1, COMMON_PW, ORG_AUTOMATION, ROLE_SYSTEM_ADMIN)",Chrome 98.0.4758.102,Enter the Username and Password and Click on Login button.,,2022-03-02 09:52:59,2022-03-02 09:53:11,11.669s,PASSED
+"""ER:""",Chrome 98.0.4758.102,,,2022-03-02 09:53:11,2022-03-02 09:53:11,0.000s,PASSED
+HeaderPageSteps.verifyPageIsLoaded(),Chrome 98.0.4758.102,System should allow the user logged successfully,,2022-03-02 09:53:11,2022-03-02 09:53:12,1.647s,PASSED
+"""Step 3: Prepare Data""",Chrome 98.0.4758.102,,,2022-03-02 09:53:12,2022-03-02 09:53:12,0.001s,PASSED
+"MenuPageSteps.selectOrganizationAdminMenu(""Region"")",Chrome 98.0.4758.102,Create a Region,,2022-03-02 09:53:12,2022-03-02 09:53:13,1.286s,PASSED
+createdRegionName = RegionPageSteps.createRegion(),Chrome 98.0.4758.102,,,2022-03-02 09:53:13,2022-03-02 09:53:21,7.189s,PASSED
+"getBaseSteps().verifyMainPopUpHasContent(""Region saved"")",Chrome 98.0.4758.102,,,2022-03-02 09:53:21,2022-03-02 09:53:26,5.391s,PASSED
+"MenuPageSteps.selectOrganizationAdminMenu(""Location"")",Chrome 98.0.4758.102,Create Location,,2022-03-02 09:53:26,2022-03-02 09:53:29,2.799s,PASSED
+createdLocationName = LocationPageSteps.createLocation(createdRegionName),Chrome 98.0.4758.102,,,2022-03-02 09:53:29,2022-03-02 09:53:40,11.143s,PASSED
+"getBaseSteps().verifyMainPopUpHasContent(""Location saved"")",Chrome 98.0.4758.102,,,2022-03-02 09:53:40,2022-03-02 09:53:45,5.400s,PASSED
+"MenuPageSteps.selectOrganizationAdminMenu(""Cost Center"")",Chrome 98.0.4758.102,Create Cost Center,,2022-03-02 09:53:45,2022-03-02 09:53:48,2.846s,PASSED
+"createdCCName = CostCenterPageSteps.createCostCenter(createdRegionName, createdLocationName)",Chrome 98.0.4758.102,,,2022-03-02 09:53:48,2022-03-02 09:54:07,18.845s,PASSED
+"getBaseSteps().verifyMainPopUpHasContent(""Cost Center saved"")",Chrome 98.0.4758.102,,,2022-03-02 09:54:07,2022-03-02 09:54:12,5.381s,PASSED
+"MenuPageSteps.selectOrganizationAdminMenu(""Specialty"")",Chrome 98.0.4758.102,Create a Specialty,,2022-03-02 09:54:12,2022-03-02 09:54:15,2.821s,PASSED
+createdSpecialtyName = SpecialtyPageSteps.createSpecialty(),Chrome 98.0.4758.102,,,2022-03-02 09:54:15,2022-03-02 09:54:26,11.038s,PASSED
+"getBaseSteps().verifyMainPopUpHasContent(""Specialty saved"")",Chrome 98.0.4758.102,,,2022-03-02 09:54:26,2022-03-02 09:54:32,5.403s,PASSED
+"MenuPageSteps.selectOrganizationAdminMenu(""Position"")",Chrome 98.0.4758.102,Create a Position,,2022-03-02 09:54:32,2022-03-02 09:54:35,2.806s,PASSED
+createdPositionName = PositionPageSteps.createPosition(),Chrome 98.0.4758.102,,,2022-03-02 09:54:35,2022-03-02 09:54:42,7.557s,PASSED
+"getBaseSteps().verifyMainPopUpHasContent(""Position saved"")",Chrome 98.0.4758.102,,,2022-03-02 09:54:42,2022-03-02 09:54:47,5.388s,PASSED
+"MenuPageSteps.selectConntractActionRequestMenu(""CAR Templates"")",Chrome 98.0.4758.102,Create CAR Templates,,2022-03-02 09:54:47,2022-03-02 09:54:50,2.882s,PASSED
+"createdTemplateName = CARTemplatesPageSteps.createCarTemplateForCAR(createdRegionName, createdLocationName, createdCCName, createdSpecialtyName, createdPositionName)",Chrome 98.0.4758.102,,,2022-03-02 09:54:50,2022-03-02 09:56:59,2m - 8.489s,PASSED
+"getBaseSteps().verifyMainPopUpHasContent(""Template information has been saved."")",Chrome 98.0.4758.102,,,2022-03-02 09:56:59,2022-03-02 09:57:05,5.956s,PASSED
+"MenuPageSteps.selectOrganizationAdminMenu(""Providers"")",Chrome 98.0.4758.102,Create a Providers,,2022-03-02 09:57:05,2022-03-02 09:57:08,2.886s,PASSED
+createdProvidersName = ProvidersPageSteps.createProvider(),Chrome 98.0.4758.102,,,2022-03-02 09:57:08,2022-03-02 09:57:34,26.418s,PASSED
+"getBaseSteps().verifyMainPopUpHasContent(""Provider Added Successfully"")",Chrome 98.0.4758.102,,,2022-03-02 09:57:34,2022-03-02 09:57:38,3.444s,PASSED
+"MenuPageSteps.selectConntractActionRequestMenu(""CAR Approval Setup"")",Chrome 98.0.4758.102,Create a Contract Approvals,,2022-03-02 09:57:38,2022-03-02 09:57:40,2.848s,PASSED
+"createdCTApprovalName = CARApprovalSetupPageSteps.createApproval(""CAR Approval"", ""Cost Center"", ""Hierarchical"", createdRegionName, createdLocationName, createdCCName, createdSpecialtyName, createdPositionName)",Chrome 98.0.4758.102,,,2022-03-02 09:57:40,2022-03-02 09:58:15,34.366s,ERROR
+Start listener action : cleanUpEnvironment,Chrome 98.0.4758.102,,,2022-03-02 09:58:15,2022-03-02 09:58:15,0.001s,PASSED

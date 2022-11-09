@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_ImportCostCenter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>794cd999-c735-4942-a034-67bc1fca024b</testCaseGuid>
+   <variable>
+      <defaultValue>'CostCenterImportTemplate.xlsx'</defaultValue>
+      <description></description>
+      <id>4f7a0e43-c6f8-47c2-81fd-4b433fe8a474</id>
+      <masked>false</masked>
+      <name>ccenterFileName</name>
+   </variable>
+</TestCaseEntity>
